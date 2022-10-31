@@ -17,6 +17,7 @@ int binarySearch(int arr[], int l, int r, int x)
 int main(void)
 {
     int n,x;
+	printf("Hello! Welcome!");
     printf("Enter The Length of Array:-\n");
     scanf("%d",&n);
     int arr[n];
@@ -28,7 +29,7 @@ int main(void)
 	printf("Enter the element to be searched:-\n");
 	scanf("%d",&x);
     int result = binarySearch(arr, 0, n - 1, x);
-    (result == -1) ? printf("Element not found! \n"): printf("Element is present at index %d",result);
+    (result == -1) ? printf("Element not found! \n"): printf("Element is present at index! %d",result);
 	printf ("Thank You! See You Soon!");
     return 0;
 }
